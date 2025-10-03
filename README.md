@@ -4,13 +4,13 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
-[![Deploy](https://img.shields.io/badge/Deploy-Render-green.svg)](https://render.com)
+[![Render](https://img.shields.io/badge/Deplpy-Render-green.svg)](https://render.com)
 
-## 🎯 Overview
+## Overview
 
 A sophisticated limit order book (LOB) simulation and backtesting platform that combines traditional quantitative finance with modern machine learning. Built for institutional trading, hedge funds, and fintech companies.
 
-## 🚀 Key Features
+## Key Features
 
 ### **Core Trading Engine**
 - **High-Performance LOB**: O(log n) order matching with sorted data structures
@@ -29,7 +29,7 @@ A sophisticated limit order book (LOB) simulation and backtesting platform that 
 - **Real-time Visualization**: Interactive dashboards with Plotly
 - **Backtesting Engine**: Historical strategy validation with parallel processing
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -41,7 +41,7 @@ A sophisticated limit order book (LOB) simulation and backtesting platform that 
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-## 💼 Business Value
+## Business Value
 
 ### **For Trading Firms**
 - **Reduced Development Time**: 6+ months of quant development in days
@@ -58,7 +58,7 @@ A sophisticated limit order book (LOB) simulation and backtesting platform that 
 - **White-label**: Customizable UI and branding
 - **Multi-tenant**: Support for multiple strategies and users
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
@@ -68,24 +68,17 @@ A sophisticated limit order book (LOB) simulation and backtesting platform that 
 | **Frontend** | Streamlit, Plotly | Interactive dashboards |
 | **Deployment** | Render, Docker | Cloud infrastructure |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### **Local Development**
 ```bash
-git clone https://github.com/yourusername/quant-lob-sim.git
-cd quant-lob-sim
+git clone https://github.com/Arittra-Bag/Quant-Lob-Backtester.git
+cd Quant-Lob-Backtester
 pip install -r requirements.txt
 python run_ui.py
 ```
 
-### **Cloud Deployment**
-```bash
-# Deploy to Render (one-click)
-git push origin main
-# Auto-deploys via render.yaml
-```
-
-## 📊 Performance Benchmarks
+## Performance Benchmarks
 
 | Metric | Value |
 |--------|-------|
@@ -94,7 +87,7 @@ git push origin main
 | **Memory Usage** | <512MB (free tier) |
 | **Latency** | <100ms (local) |
 
-## 🎯 Use Cases
+## Use Cases
 
 ### **Institutional Trading**
 - Algorithm development and testing
@@ -111,7 +104,7 @@ git push origin main
 - Investor demos and presentations
 - Product-market fit testing
 
-## 🔧 Configuration
+## Configuration
 
 ### **Strategy Parameters**
 ```python
@@ -134,41 +127,7 @@ volatility_target = 0.20  # 20% target volatility
 correlation_limit = 0.70  # Max correlation
 ```
 
-## 📈 ROI & Business Impact
-
-### **Development Cost Savings**
-- **Traditional**: $200K+ for 6-month development
-- **This Platform**: $0 (open source) + deployment costs
-- **Time to Market**: 6 months → 1 week
-
 ### **Operational Benefits**
 - **Reduced Risk**: Built-in controls and monitoring
 - **Faster Iteration**: Rapid strategy testing and deployment
 - **Scalability**: Cloud-native architecture
-
-## 🚀 Deployment
-
-### **Render (Recommended)**
-- One-click deployment
-- Auto-scaling
-- Custom domains
-- SSL certificates
-
-### **Other Platforms**
-- Heroku, AWS, GCP, Azure
-- Docker containerization
-- Kubernetes orchestration
-
-## 📞 Support & Contact
-
-- **Documentation**: [Full docs](docs/)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/quant-lob-sim/issues)
-- **Email**: [your-email@company.com](mailto:your-email@company.com)
-
-## 📄 License
-
-MIT License - See [LICENSE](LICENSE) for details.
-
----
-
-**Built with ❤️ for the quantitative finance community**
