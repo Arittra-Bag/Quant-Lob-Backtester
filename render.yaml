@@ -4,7 +4,7 @@ services:
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run modern_ui.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --server.enableCORS false
+    startCommand: python run_ui.py
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.2

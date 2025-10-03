@@ -18,11 +18,14 @@ def main():
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     
     # Run Streamlit
+    port = os.getenv('PORT', '8501')
+    address = os.getenv('RENDER') == 'true' and '0.0.0.0' or 'localhost'
+    
     try:
         subprocess.run([
             sys.executable, "-m", "streamlit", "run", "modern_ui.py",
-            "--server.port", "8501",
-            "--server.address", "localhost",
+            "--server.port", port,
+            "--server.address", address,
             "--browser.gatherUsageStats", "false"
         ], check=True)
     except KeyboardInterrupt:
